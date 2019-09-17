@@ -9,8 +9,8 @@ default: open
 html: build/out.html
 build/out.html: $(STYLESHEETS) $(MARKDOWN) $(OTHER_DEPS)
 	mkdir -p build
-	pandoc --highlight-style breezedark -B resources/header.html \
-	--metadata pagetitle="Physics & Astronomy - Web Proposal" \
+	pandoc --toc --highlight-style breezedark -B resources/header.html \
+	--metadata pagetitle="Cole Erickson - Project Pitch" \
 	--self-contained --toc \
 	$(STYLES) \
 	$(MARKDOWN) \
@@ -18,7 +18,9 @@ build/out.html: $(STYLESHEETS) $(MARKDOWN) $(OTHER_DEPS)
 
 pdf: build/out.pdf
 build/out.pdf: build/out.html
-	wkhtmltopdf ./build/out.html ./build/out.pdf
+	wkhtmltopdf --enable-internal-links \
+	-L 1in -R 1in -T 1in -B 1in \
+	./build/out.html ./build/out.pdf
 
 open: pdf
 	xdg-open ./build/out.pdf

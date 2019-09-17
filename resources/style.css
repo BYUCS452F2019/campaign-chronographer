@@ -1,0 +1,41 @@
+#frontpage {
+    page-break-after: always;
+    text-align: center;
+}
+
+#frontpage h1 {
+    font-size: 36px;
+    padding-top: 400px;
+}
+
+#frontpage span {
+    font-size: 24px;
+    font-style: italic;
+}
+
+#TOC {
+    page-break-after: always;
+    width: 300px;
+    font-size: 24px;
+}
+
+#TOC > ul {
+    padding-left: 0;
+}
+
+#TOC > ul > li > ul {
+    padding-left: 20px;
+}
+
+#TOC > ul > li {
+    list-style: none;
+}
+
+#TOC > ul > li > a:first-child {
+    display: none;
+}
+
+@page {
+    size: 8.5in 11in;  /* width height */
+    padding: 1in;
+ }
