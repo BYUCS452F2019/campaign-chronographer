@@ -1,6 +1,6 @@
-# Campaign Keeper
+# Campaign Chronographer
 
-A collaborative RPG campaign wiki with variable document permissions
+A system for keeping time in fantasy calendars
 
 ## Project Description
 
