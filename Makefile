@@ -9,9 +9,9 @@ default: open
 html: build/out.html
 build/out.html: $(STYLESHEETS) $(MARKDOWN) $(OTHER_DEPS)
 	mkdir -p build
-	pandoc --toc --highlight-style breezedark -B resources/header.html \
+	pandoc --highlight-style breezedark -B resources/header.html \
 	--metadata pagetitle="Cole Erickson - Project Pitch" \
-	--self-contained --toc \
+	--self-contained \
 	$(STYLES) \
 	$(MARKDOWN) \
 	-t html -o build/out.html
@@ -23,7 +23,7 @@ build/out.pdf: build/out.html
 	./build/out.html ./build/out.pdf
 
 open: pdf
-	xdg-open ./build/out.pdf
+	firefox ./build/out.pdf &
 
 clean:
 	rm -rf ./build
