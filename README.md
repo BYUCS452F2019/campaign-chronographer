@@ -26,6 +26,8 @@ I'm looking for 2-4 additional team members to help with this project.  Team mem
 
 ***Bonuses:***
 
+ - Familiarity with Gitlab merge requests
+ - Experience with automated CI and Docker Swarm
  - Experience with transactions and stored procedures in Postgres
  - Experience with NodeJS
  - Experience with React
