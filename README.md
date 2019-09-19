@@ -50,12 +50,8 @@ While perhaps we could place limits on free users (limit the number of collabora
 
 ### Legal
 
-<<<<<<< HEAD
 We will have to make clear that users retain intellectual property of any stories or adventures they plan or track in this system.  Additionally, while this system is not aimed at any rule systems in particular, it will appeal primarily to players of role-playing games such as _Dungeons & Dragons_, so it would be wise to ensure we do not accidentally affiliate ourselves with Wizards of the Coast. 
 
 ### Technical
 
 In order to facilitate easier frontend interface development, we will strive to present a well-constructed and sane HTTP API.  This will have the additional benefit of potentially allowing other developers to create their own clients for or consumers of our API, potentially allowing this to be of technical benefit to them.
-=======
-### Technical
->>>>>>> ff4fe35b982d19db4db8854f3f3beaae284bd609
