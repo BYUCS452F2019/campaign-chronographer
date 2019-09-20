@@ -18,13 +18,13 @@ A system for creating custom fantasy calendars and tracking events with them.
 
 I'm looking for 2-4 additional team members to help with this project.  Team members will be expected to submit their code for review by the rest of the team before it will be merged in - be ready to have team members suggest style nitpicks or alternate solutions on every commit.
 
-***Requirements:***
+***Helpful things to know:***
 
- - Solid experience with using Git in a team setting
+ - Experience with using Git in a team setting
  - Experience with SQL
  - Experience writing HTTP API servers
 
-***Bonuses:***
+***Even better:***
 
  - Familiarity with Gitlab merge requests
  - Experience with automated CI and Docker Swarm
